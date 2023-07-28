@@ -1,0 +1,243 @@
+/* Começo Do css resetando a pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2495d0;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 5rem;
+    height: 5rem;
+}
+
+header h1 {
+    font-size: 32px;
+    color: white;
+}
+h1{
+  color: #3397be;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: rgb(110, 110, 110);
+    border-bottom: .1rem solid rgb(107, 107, 107);
+    padding-bottom: .5rem;
+    transition: .5s;
+}
+
+.pesquisa {
+    margin-top: 10px;
+    display: flex;
+}
+
+.pesquisa input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.pesquisa button {
+    padding: 8px 15px;
+    background-color: #2074a0;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* style para o documento */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* style conteúdo principal */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* style barra de pesquisa */
+.pesquisa {
+  margin-top: 10px;
+  display: flex;
+}
+
+.pesquisa input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.pesquisa button {
+  padding: 8px 15px;
+  background-color: #2074a0;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.pesquisa button:hover {
+  background-color: #156d91;
+}
+
+/* style de imagens */
+.imagens {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.imagens img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-left:10px;
+}
+
+/* style seções principais */
+.principais, .funcionamento, .ingressos, .numeros {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.principais h2, .funcionamento h2, .ingressos h2, .numeros h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2495d0;
+}
+
+.principais ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.principais li {
+  margin-bottom: 10px;
+}
+
+/* styleos horários  */
+.funcionamento p {
+  font-size: 18px;
+}
+
+/* style preços  */
+.ingressos p {
+  font-size: 18px;
+  color: #000000;
+}
+
+/* style números */
+.numeros ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.numeros li {
+  margin-bottom: 10px;
+}
+
+.numeros li:last-child {
+  margin-bottom: 0;
+}
+
+/* style para o footer */
+footer {
+  background-color: #156d91;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+/*style atrações principais */
+.atracoes {
+  margin-bottom: 30px;
+}
+
+.atracoes h2 {
+  font-size: 24px;
+  color: #2495d0;
+  margin-bottom: 20px;
+}
+
+.atracoes .atractions-list {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
+
+.atracoes .atractions-item {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.atracoes .atractions-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.atracoess .atractions-item .atraction-info {
+  padding: 10px;
+}
+
+.atracoes .atractions-item .atraction-info h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin: 5px;
+}
+
+.atracoes .atractions-item .atraction-info p {
+  font-size: 18px;
+  margin: 5px;
+}
+
+/* style botões */
+.button {
+  padding: 10px 20px;
+  background-color: #2074a0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #156d91;
+}

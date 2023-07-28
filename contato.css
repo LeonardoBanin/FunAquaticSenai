@@ -1,0 +1,153 @@
+/* Começo Do css resetando a pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family:####; */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2495d0;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 5rem;
+    height: 5rem;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: rgb(87, 87, 87);
+    border-bottom: .1rem solid rgb(112, 112, 112);
+    padding-bottom: .5rem;
+    transition: .5s;
+}
+
+.pesquisa {
+    margin-top: 10px;
+    display: flex;
+}
+
+.pesquisa input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.pesquisa button {
+    padding: 8px 15px;
+    background-color: #2074a0;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* footer  */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+  
+  /* style para  contato */
+  .contato {
+    padding: 40px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    height: 600px;
+  }
+  
+  .contato h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2495d0;
+  }
+  
+  .contato p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .contato form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .contato form .msg{
+    width: 100%;
+    padding-bottom: 80px;
+    margin-bottom: 15px;
+}
+  
+  .contato input[type="text"],
+  .contato input[type="email"],
+  .contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contato textarea {
+    resize: vertical;
+  }
+  
+  .contato input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #2074a0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contato input[type="submit"]:hover {
+    background-color: #156d91;
+  }
+  
+  /* style  para o footer */
+  footer {
+    background-color: #2495d0;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
