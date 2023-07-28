@@ -1,0 +1,216 @@
+/* Começo Do css resetando a pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2495d0;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 5rem;
+    height: 5rem;
+}
+
+header h1 {
+    font-size: 32px;
+    color: white;
+}
+h1{
+  color: #3397be;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: rgb(110, 110, 110);
+    border-bottom: .1rem solid rgb(107, 107, 107);
+    padding-bottom: .5rem;
+    transition: .5s;
+}
+
+.pesquisa {
+    margin-top: 10px;
+    display: flex;
+}
+
+.pesquisa input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.pesquisa button {
+    padding: 8px 15px;
+    background-color: #2074a0;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* style para o documento */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* style conteúdo principal */
+.principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 80vh;
+}
+
+/* style barra de pesquisa */
+.pesquisa {
+  margin-top: 10px;
+  display: flex;
+}
+
+.pesquisa input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.pesquisa button {
+  padding: 8px 15px;
+  background-color: #2074a0;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.pesquisa button:hover {
+  background-color: #156d91;
+}
+main {
+    margin-top: 90px;
+  }
+  .produtos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .division2 {
+    flex-basis: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.5s;
+  }
+  .filtro {
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .produtos1 {
+    text-decoration: none;
+    color: black;
+  }
+
+  .division2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1px 6px rgba(44,44,44,0.2);
+  }
+  
+  .produtosimg {
+    max-width: 100%;
+    width: 300px;
+    height: 250px;
+    max-height: 290px;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    font-weight: bold;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row-2 {
+  justify-content: space-between;
+  margin: 50px 50px 20px;
+}
+
+select{
+  font-size: 14px;
+  border: 1px solid #c33d3d;
+  border-radius: 20px;
+  padding: 10px 35px 10px 10px;
+  transition: all 0.4s ease;
+}
+
+select:hover {
+  background-color: #eeeeee75;
+}
+
+select:focus {
+  outline: none;
+}
+
+.page-btn {
+  padding-top: 20px;
+  margin: 0 auto 80px;
+}
+
+.page-btn span {
+  display: inline-block;
+  border: 1px solid #c33d3d;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.page-btn span:hover {
+  background: #c33d3d;
+  color: #fff;
+}
+
+
+
+/* style para o footer */
+footer {
+  background-color: #156d91;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
